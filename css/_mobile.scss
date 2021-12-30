@@ -1,0 +1,20 @@
+/*** Mobile ***/
+@media (max-width: 768px) {
+	.hero-desktop {
+		display: none;
+	}
+
+	.wrapper {
+		flex-basis: 100%;
+		text-align: center;
+		background-image: none;
+	}
+
+	.hero-mobile {
+		display: block;
+		height: 13em;
+		background-image: url('../images/hero-mobile.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

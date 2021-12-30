@@ -1,0 +1,56 @@
+/********** Base Resets **********/
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.1;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dd,
+figure {
+	margin: 0;
+}
+
+body {
+	scrollbar-gutter: stable;
+}
+
+/* Remove if Not Used [i.e, when using tailwind] */
+.flow-content > * + * {
+	margin-top: var(--flow-spacer, 1em);
+}
